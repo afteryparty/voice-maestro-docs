@@ -1,0 +1,6 @@
+theme: jekyll-theme-slate
+title: VoiceMaestro
+description: Dynamic Voice Channel Manager by Afterparty Bot Labs
+show_downloads: false
+google_analytics:
+color: '#4E8ED8'
