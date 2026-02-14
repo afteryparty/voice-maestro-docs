@@ -65,7 +65,7 @@
 **VoiceMaestro** is a project by **Afterparty Bot Labs**.
 
 - **Website**: [Afterparty Bot Labs](https://afterpartylabs.xyz)
-- **Support**: [Join our Discord](https://discord.com/BusuZp2G8w)
+- **Support**: [Join our Discord](https://discord.com/invite/BusuZp2G8w)
 
 ---
 
