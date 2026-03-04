@@ -4,9 +4,10 @@ VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** a
 
 ---
 
-## 📚 Documentation
-
-[![Documentation](https://img.shields.io/badge/View-Documentation-00e5ff?style=for-the-badge&logo=github)](https://voicemaestro.xyz)
+[![Documentation](https://img.shields.io/badge/Documentation-Help%20Center-00e5ff?style=for-the-badge)](https://voicemaestro.xyz)
+[![Invite Bot](https://img.shields.io/badge/Add%20Bot-VoiceMaestro-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands)
+[![Support](https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-00e5ff?style=for-the-badge)](https://afterpartylabs.xyz)
 
 ---
 
@@ -21,15 +22,11 @@ VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** a
 
 ---
 
-## 🤖 Add VoiceMaestro
+## 📚 Documentation
 
-[![Invite Bot](https://img.shields.io/badge/Add-VoiceMaestro-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands)
+Full documentation is available here:
 
----
-
-## 💬 Support
-
-[![Join Support Server](https://img.shields.io/badge/Join-Support%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+👉 https://voicemaestro.xyz
 
 ---
 
@@ -37,7 +34,7 @@ VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** a
 
 VoiceMaestro is a project by **Afterparty Bot Labs**.
 
-[![Afterparty Bot Labs](https://img.shields.io/badge/Visit-Afterparty%20Bot%20Labs-00e5ff?style=for-the-badge)](https://afterpartylabs.xyz)
+Website: https://afterpartylabs.xyz
 
 ---
 
