@@ -1,6 +1,8 @@
 ---
+layout: default
 title: Commands
 description: VoiceMaestro command reference.
+permalink: /commands/
 ---
 
 # Commands
