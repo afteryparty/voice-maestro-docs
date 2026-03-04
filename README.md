@@ -6,34 +6,30 @@ VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** a
 
 ## 📚 Documentation
 
-Full documentation is available here:
-
-👉 https://voicemaestro.xyz
+[![Documentation](https://img.shields.io/badge/View-Documentation-00e5ff?style=for-the-badge&logo=github)](https://voicemaestro.xyz)
 
 ---
 
 ## ✨ Features
 
-- Join-to-create voice channels
-- Channel owner controls (lock, hide, rename, limits)
-- User access management (permit, block, reject)
-- Ownership tools (claim, transfer, trust)
-- Optional interface panel with buttons
-- Premium automation and voice statistics
+- Join-to-create voice channels  
+- Channel owner controls (lock, hide, rename, limits)  
+- User access management (permit, block, reject)  
+- Ownership tools (claim, transfer, trust)  
+- Optional interface panel with buttons  
+- Premium automation and voice statistics  
 
 ---
 
-## 🤖 Invite VoiceMaestro
+## 🤖 Add VoiceMaestro
 
-https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands
+[![Invite Bot](https://img.shields.io/badge/Add-VoiceMaestro-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands)
 
 ---
 
 ## 💬 Support
 
-Join the support server:
-
-https://discord.gg/BusuZp2G8w
+[![Join Support Server](https://img.shields.io/badge/Join-Support%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
 
 ---
 
@@ -41,7 +37,7 @@ https://discord.gg/BusuZp2G8w
 
 VoiceMaestro is a project by **Afterparty Bot Labs**.
 
-Website: https://afterpartylabs.xyz
+[![Afterparty Bot Labs](https://img.shields.io/badge/Visit-Afterparty%20Bot%20Labs-00e5ff?style=for-the-badge)](https://afterpartylabs.xyz)
 
 ---
 
