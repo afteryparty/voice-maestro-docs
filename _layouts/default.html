@@ -1,34 +1,89 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    {% seo %}
 
-{% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="{{ site.theme_color | default: '#157878' }}">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+
+    <style>
+      /* lightweight layout upgrades (safe on GitHub Pages) */
+      .header-inner { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
+      .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+      .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
+      .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+      .btn.secondary { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); }
+      .btn.secondary:hover { background: rgba(255,255,255,.22); }
+      .btn.primary { background: #ffffff; color: #0b2a2a; border: 1px solid rgba(255,255,255,.7); }
+      .btn.primary:hover { filter: brightness(.98); }
+      .main-content { max-width: 980px; }
+      .site-footer { max-width: 980px; margin: 0 auto; padding: 26px 1rem 40px; color: #6a737d; font-size: 0.95rem; }
+      .site-footer a { color: inherit; text-decoration: underline; }
+      .footer-row { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+      .badge { display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; background:#f6f8fa; border:1px solid #eaeef2; color:#24292f; font-size:.9rem; }
+    </style>
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <div class="header-inner">
+        <div class="brand-row">
+          {% if site.logo %}
+            <img class="brand-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title | default: site.github.repository_name }} logo">
+          {% endif %}
+          <div>
+            <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          {% if site.cta_invite_url %}
+            <a href="{{ site.cta_invite_url }}" class="btn primary">Invite VoiceMaestro</a>
+          {% endif %}
+          {% if site.cta_support_url %}
+            <a href="{{ site.cta_support_url }}" class="btn secondary">Join Support</a>
+          {% endif %}
+          {% if site.cta_dashboard_url %}
+            <a href="{{ site.cta_dashboard_url }}" class="btn secondary">Open Dashboard</a>
+          {% endif %}
+
+          {% if site.github.is_project_page %}
+            <a href="{{ site.github.repository_url }}" class="btn secondary">View on GitHub</a>
+          {% endif %}
+
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn secondary">Download .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn secondary">Download .tar.gz</a>
+          {% endif %}
+        </div>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-row">
+        <div>
+          <span class="badge">Powered by <strong>Afterparty Bot Labs</strong></span>
+        </div>
+        <div>
+          © {{ site.time | date: "%Y" }} {{ site.footer_brand | default: "Afterparty Bot Labs" }} —
+          <a href="{{ site.footer_link | default: "https://afterpartylabs.xyz" }}">Website</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
