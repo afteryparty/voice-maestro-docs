@@ -27,22 +27,29 @@ a:hover {
   color: #915DDF;
 }
 
-/* Fix buttons */
-.btn {
-  display: inline-block;
-  margin: 6px;
-  padding: 8px 14px;
-  border-radius: 6px;
-  background: #915DDF;
-  border: 1px solid #915DDF;
-  color: white !important;
-  text-decoration: none;
-  font-weight: 500;
+/* Fix header button container spacing */
+.page-header .btn {
+  margin: 6px 6px;
 }
 
+/* Override Midnight theme buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #915DDF;
+  border: 1px solid #915DDF;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Button hover */
 .btn:hover {
   background: #7f4ed1;
   border-color: #7f4ed1;
+  transform: translateY(-1px);
 }
 
 /* Divider styling */
