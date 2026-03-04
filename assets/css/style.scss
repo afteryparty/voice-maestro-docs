@@ -3,6 +3,42 @@
 
 @import "jekyll-theme-midnight";
 
+/* Bot theme color */
 a {
   color: #915DDF;
+}
+
+a:hover {
+  color: #a875ff;
+}
+
+/* Center header section */
+.page-header {
+  text-align: center;
+}
+
+/* Fix narrow layout */
+.main-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Better spacing */
+.main-content h1 {
+  text-align: center;
+}
+
+.main-content h2 {
+  margin-top: 40px;
+  color: #915DDF;
+}
+
+/* Improve button look */
+.btn {
+  border-color: #915DDF;
+}
+
+.btn:hover {
+  background-color: #915DDF;
+  border-color: #915DDF;
 }
