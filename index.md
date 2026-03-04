@@ -1,9 +1,3 @@
----
-layout: default
-title: VoiceMaestro
-description: Dynamic voice channels for Discord — simple for members, powerful for admins.
----
-
 # VoiceMaestro
 Dynamic voice channels for Discord — simple for members, powerful for admins.
 
