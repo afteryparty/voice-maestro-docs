@@ -3,7 +3,7 @@
 
 @import "jekyll-theme-midnight";
 
-/* Bot theme color */
+/* Theme link color */
 a {
   color: #915DDF;
 }
@@ -12,33 +12,40 @@ a:hover {
   color: #a875ff;
 }
 
-/* Center header section */
+/* Center page layout */
 .page-header {
   text-align: center;
 }
 
-/* Fix narrow layout */
 .main-content {
   max-width: 900px;
   margin: auto;
 }
 
-/* Better spacing */
-.main-content h1 {
-  text-align: center;
-}
-
+/* Section headers */
 .main-content h2 {
-  margin-top: 40px;
   color: #915DDF;
 }
 
-/* Improve button look */
+/* Fix buttons */
 .btn {
-  border-color: #915DDF;
+  display: inline-block;
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #915DDF;
+  border: 1px solid #915DDF;
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .btn:hover {
-  background-color: #915DDF;
-  border-color: #915DDF;
+  background: #7f4ed1;
+  border-color: #7f4ed1;
+}
+
+/* Divider styling */
+hr {
+  border-color: #915DDF33;
 }
