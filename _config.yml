@@ -1,6 +1,17 @@
-theme: jekyll-theme-midnight
 title: VoiceMaestro
-description: Dynamic Voice Channel Manager by Afterparty Bot Labs
-show_downloads: false
-google_analytics:
-color: '#4E8ED8'
+description: Dynamic voice channels for Discord — simple for members, powerful for admins.
+
+# Optional: add a logo image in /assets/img/logo.png
+logo: /assets/img/logo.png
+
+# Header buttons
+cta_invite_url: https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=0&scope=bot%20applications.commands
+cta_support_url: https://discord.gg/BusuZp2G8w
+cta_dashboard_url: https://YOUR-DASHBOARD-URL
+
+# Theme color (optional)
+theme_color: "#157878"
+
+# Footer
+footer_brand: Afterparty Bot Labs
+footer_link: https://afterpartylabs.xyz
