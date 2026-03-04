@@ -7,7 +7,7 @@ description: Dynamic voice channels for Discord — simple for members, powerful
 logo: /assets/img/logo.png
 
 # Header buttons
-cta_invite_url: cta_invite_url: https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=0&scope=bot%20applications.commands
+cta_invite_url: cta_invite_url: https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands
 cta_support_url: https://discord.gg/BusuZp2G8w
 
 # Theme color (optional)
