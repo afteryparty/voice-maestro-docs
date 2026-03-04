@@ -4,10 +4,10 @@ VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** a
 
 ---
 
-[![Documentation](https://img.shields.io/badge/Documentation-Help%20Center-915DDF?style=for-the-badge)](https://voicemaestro.xyz)
+[![Documentation](https://img.shields.io/badge/Documentation-Help%20Center-915DDF?style=for-the-badge&logo=readthedocs&logoColor=white)](https://voicemaestro.xyz)
 [![Invite Bot](https://img.shields.io/badge/Add%20Bot-VoiceMaestro-915DDF?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands)
 [![Support](https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
-[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-915DDF?style=for-the-badge)](https://afterpartylabs.xyz)
+[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-2ED7E6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://afterpartylabs.xyz)
 
 ---
 
