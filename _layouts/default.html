@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
 
-    <!-- ✅ Favicons / App Icons -->
-    <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
-    <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
-    <meta name="msapplication-TileColor" content="{{ site.theme_color | default: '#157878' }}">
+    <!-- ✅ Favicons / App Icons (VoiceMaestro uses /assets/css/img/) -->
+    <link rel="icon" href="{{ '/assets/css/img/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ '/assets/css/img/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{ '/assets/css/img/apple-touch-icon.png' | relative_url }}">
+    <meta name="msapplication-TileColor" content="{{ site.theme_color | default: '#915DDF' }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="{{ site.theme_color | default: '#157878' }}">
+    <meta name="theme-color" content="{{ site.theme_color | default: '#915DDF' }}">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -26,10 +26,26 @@
       .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
       .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
       .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-      .btn.secondary { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); }
-      .btn.secondary:hover { background: rgba(255,255,255,.22); }
-      .btn.primary { background: #ffffff; color: #0b2a2a; border: 1px solid rgba(255,255,255,.7); }
-      .btn.primary:hover { filter: brightness(.98); }
+
+      /* Keep VoiceMaestro theme color */
+      .btn { border-radius: 6px; }
+      .btn.primary {
+        background: #915DDF;
+        border: 1px solid #915DDF;
+        color: #fff !important;
+      }
+      .btn.primary:hover {
+        background: #7f4ed1;
+        border-color: #7f4ed1;
+        filter: none;
+      }
+      .btn.secondary {
+        background: rgba(255,255,255,.10);
+        border: 1px solid rgba(255,255,255,.25);
+        color: #fff !important;
+      }
+      .btn.secondary:hover { background: rgba(255,255,255,.18); }
+
       .main-content { max-width: 980px; }
       .site-footer { max-width: 980px; margin: 0 auto; padding: 26px 1rem 40px; color: #6a737d; font-size: 0.95rem; }
       .site-footer a { color: inherit; text-decoration: underline; }
