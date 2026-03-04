@@ -4,7 +4,7 @@ title: VoiceMaestro
 description: Dynamic voice channels for Discord — simple for members, powerful for admins.
 
 # Optional: add a logo image in /assets/img/logo.png
-logo: assets/css/img/favicon.ico
+logo: favicon.ico
 
 # Header buttons
 cta_invite_url: cta_invite_url: https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands
