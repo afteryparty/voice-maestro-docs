@@ -3,16 +3,24 @@
 
 @import "jekyll-theme-midnight";
 
-/* Theme link color */
-a {
-  color: #915DDF;
+:root {
+  --voice-primary: #915DDF;
+  --voice-primary-hover: #7f4ed1;
+  --voice-link: #b986ff;
+  --voice-link-hover: #d1a8ff;
+  --voice-text: #f2ecff;
+  --voice-text-soft: #d8c8f3;
+  --voice-heading: #ffffff;
+  --voice-border: rgba(145, 93, 223, 0.22);
+  --voice-muted: #c7b3e8;
 }
 
-a:hover {
-  color: #a875ff;
+/* Base */
+body {
+  color: var(--voice-text);
 }
 
-/* Center page layout */
+/* Layout */
 .page-header {
   text-align: center;
 }
@@ -20,39 +28,202 @@ a:hover {
 .main-content {
   max-width: 900px;
   margin: auto;
+  color: var(--voice-text);
 }
 
-/* Section headers */
+/* Text */
+.main-content p,
+.main-content li,
+.main-content ul,
+.main-content ol,
+.main-content blockquote {
+  color: var(--voice-text-soft);
+}
+
+.main-content strong,
+.main-content b,
+strong,
+b {
+  color: var(--voice-text);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--voice-heading);
+}
+
+/* VoiceMaestro accent on content section headers */
 .main-content h2 {
-  color: #915DDF;
+  color: var(--voice-primary);
 }
 
-/* Fix header button container spacing */
+/* Links */
+a {
+  color: var(--voice-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--voice-link-hover);
+  text-decoration: underline;
+}
+
+/* Buttons */
 .page-header .btn {
   margin: 6px 6px;
 }
 
-/* Override Midnight theme buttons */
 .btn {
   display: inline-block;
   padding: 10px 16px;
   border-radius: 8px;
-  background: #915DDF;
-  border: 1px solid #915DDF;
+  background: var(--voice-primary);
+  border: 1px solid var(--voice-primary);
   color: #ffffff !important;
   text-decoration: none !important;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.2s ease;
 }
 
-/* Button hover */
 .btn:hover {
-  background: #7f4ed1;
-  border-color: #7f4ed1;
+  background: var(--voice-primary-hover);
+  border-color: var(--voice-primary-hover);
+  color: #ffffff !important;
   transform: translateY(-1px);
 }
 
-/* Divider styling */
+/* Bot dropdown */
+.bot-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.bot-switcher-btn {
+  cursor: default;
+}
+
+.bot-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  background: #101722;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.28);
+  padding: 8px;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.bot-switcher:hover .bot-menu,
+.bot-switcher:focus-within .bot-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.bot-menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bot-menu a:hover {
+  background: rgba(255,255,255,.08);
+  text-decoration: none;
+}
+
+/* Dividers */
 hr {
-  border-color: #915DDF33;
+  border-color: var(--voice-border);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  border-bottom-color: var(--voice-border);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Small text */
+small,
+.main-content small {
+  color: var(--voice-muted);
+}
+
+/* Lists */
+.main-content ul,
+.main-content ol {
+  padding-left: 1.4rem;
+}
+
+/* Code */
+code,
+pre {
+  color: #f8f3ff;
+}
+
+pre,
+code {
+  background: rgba(0,0,0,.35);
+  border-radius: 10px;
+}
+
+pre {
+  border-color: var(--voice-border);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--voice-primary);
+  padding-left: 1rem;
+  color: var(--voice-text-soft);
+}
+
+/* Tables */
+table {
+  color: var(--voice-text);
+}
+
+th,
+td {
+  border-color: var(--voice-border);
+}
+
+/* Footer */
+.site-footer {
+  color: var(--voice-muted);
+}
+
+.site-footer a {
+  color: var(--voice-text-soft);
+}
+
+.site-footer a:hover {
+  color: var(--voice-heading);
 }
