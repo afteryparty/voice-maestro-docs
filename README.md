@@ -1,46 +1,56 @@
-<p align="center">
-  <h1 align="center">VoiceMaestro</h1>
-  <p align="center">Dynamic Voice Channels for Discord</p>
-</p>
+# VoiceMaestro
 
-<p align="center">
-  <a href="https://voicemaestro.xyz">
-    <img src="https://img.shields.io/badge/Documentation-Help%20Center-915DDF?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation">
-  </a>
-  <a href="https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands">
-    <img src="https://img.shields.io/badge/Add%20Bot-VoiceMaestro-915DDF?style=for-the-badge&logo=discord&logoColor=white" alt="Invite Bot">
-  </a>
-  <a href="https://discord.gg/BusuZp2G8w">
-    <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support">
-  </a>
-  <a href="https://afterpartylabs.xyz">
-    <img src="https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-2ED7E6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Dynamic voice channels for Discord.
+
+[![Documentation](https://img.shields.io/badge/Documentation-Docs-915DDF?style=for-the-badge)](https://voicemaestro.xyz)
+[![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-915DDF?style=for-the-badge&logo=discord&logoColor=white)](BOT_INVITE_LINK)
+[![Support](https://img.shields.io/badge/Support-Discord-915DDF?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-915DDF?style=for-the-badge)](https://afterpartylabs.xyz)
 
 ---
 
-VoiceMaestro is a powerful Discord bot that creates **dynamic voice channels** and lets users manage their own temporary voice spaces with simple commands and interactive controls.
+VoiceMaestro creates **temporary voice channels on demand** using a join-to-create system.
 
-## ✨ Features
+Channel owners can control their voice rooms with simple commands and UI panels.
 
-- Join-to-create voice channels  
-- Channel owner controls (lock, hide, rename, limits)  
-- User access management (permit, block, reject)  
-- Ownership tools (claim, transfer, trust)  
-- Optional interface panel with buttons  
-- Premium automation and voice statistics  
+---
 
-## 📚 Documentation
+# ✨ Features
 
-Full documentation is available here:  
+- Join-to-create voice channels
+- Channel ownership tools
+- Lock / unlock voice rooms
+- Rename channels
+- Set user limits
+- Permit or reject access
+- Block / unblock users
+- Optional control panel interface
+
+---
+
+# 📚 Documentation
+
+Full documentation:
+
 👉 https://voicemaestro.xyz
 
-## 🏢 Project
+---
 
-VoiceMaestro is a project by **Afterparty Bot Labs**.  
-Website: https://afterpartylabs.xyz
+# 🚀 Getting Started
+
+1. Invite the bot  
+2. Run `/setup create`  
+3. Optional: run `/interface` to create the control panel
 
 ---
 
-*Powered by Afterparty Bot Labs © 2026*
+# 🏢 Project
+
+VoiceMaestro is developed by **Afterparty Bot Labs**.
+
+Website  
+https://afterpartylabs.xyz
+
+---
+
+Powered by **Afterparty Bot Labs © 2026**
