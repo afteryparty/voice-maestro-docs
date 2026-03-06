@@ -13,6 +13,7 @@
   --voice-heading: #ffffff;
   --voice-border: rgba(145, 93, 223, 0.22);
   --voice-muted: #c7b3e8;
+  --voice-heading-accent: #b986ff;
 }
 
 /* Base */
@@ -26,7 +27,7 @@ body {
 }
 
 .main-content {
-  max-width: 900px;
+  max-width: 820px;
   margin: auto;
   color: var(--voice-text);
 }
@@ -65,7 +66,7 @@ h6,
 
 /* VoiceMaestro accent on content section headers */
 .main-content h2 {
-  color: var(--voice-primary);
+  color: var(--voice-heading-accent);
 }
 
 /* Links */
