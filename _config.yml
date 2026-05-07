@@ -1,5 +1,4 @@
-theme: jekyll-theme-midnight
-title: "VoiceMaestro"
+﻿title: "VoiceMaestro"
 description: "Dynamic join-to-create voice management for Discord with owner controls and premium upgrades."
 show_downloads: false
 theme_color: "#915DDF"
@@ -10,4 +9,6 @@ favicon: "/assets/css/img/favicon.ico"
 cta_invite_url: "https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands"
 cta_support_url: "https://discord.gg/BusuZp2G8w"
 cta_website_url: "https://afterpartylabs.xyz"
-cta_github_url: "https://github.com/afteryparty/voice-maestro-docs"
+url: "https://voicemaestro.xyz"
+baseurl: ""
+markdown: kramdown

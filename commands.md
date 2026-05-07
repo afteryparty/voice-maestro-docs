@@ -1,50 +1,43 @@
----
+﻿---
 layout: default
 title: Commands
 description: VoiceMaestro command reference.
 permalink: /commands/
 ---
 
-# Commands
+## Commands
 
-## Setup & Configuration
-- `/setup create` — Create the “Join to Create” voice hub system  
-- `/setup delete` — Remove the voice hub system  
-- `/interface` — Set up the voice channel interface (text channel with buttons)  
-- `/delete interface` — Delete the voice interface  
-
-## Channel Management
-- `/channel` — Create a temporary voice channel (Premium options available)  
-- `/lock` — Lock your voice channel  
-- `/unlock` — Unlock your voice channel  
-- `/hide` — Hide your voice channel  
-- `/reveal` — Reveal your voice channel  
-- `/rename <name>` — Change the name of your voice channel  
-- `/limit <number>` — Set a user limit (0–99)  
-- `/bitrate <kbps>` — Set the channel audio quality  
-- `/video_quality <hd/sd>` — Toggle HD video quality  
-
-## User Access
-- `/permit <user>` — Allow a specific user to join your locked channel  
-- `/reject <user>` — Kick a user and prevent them from re-joining  
-- `/claim` — Claim ownership if the previous owner left  
-- `/transfer <user>` — Transfer channel ownership  
-- `/trust <user>` — Trust a user (allow them to manage the channel)  
-- `/untrust <user>` — Revoke trust  
-- `/block <user>` — Block a user from joining  
-- `/unblock <user>` — Unblock a user  
-
-## Premium Features
-- `/premium` — Check subscription status  
-- `/panel` — Open the interactive voice control dashboard  
-- `/dashboard` — View premium statistics and settings  
-- `/automation` — Configure auto-delete, auto-roles, idle timeouts  
-- `/voicestats` — View voice activity leaderboards  
-- `/presets` — Save and load voice channel configurations  
-
-## Utility
-- `/stats` — View bot statistics (Server count, Ping, Uptime)  
-- `/ping` — Check bot response time  
-- `/help` — View the help menu  
-- `/support` — Support links  
-- `/activity` — Start a voice activity (e.g., YouTube Together)
+| Command | Description | Typical Use |
+| --- | --- | --- |
+| `/setup create` | Creates the join-to-create voice hub system. | First-time server setup |
+| `/setup delete` | Removes the existing voice hub setup. | Reset or rebuild setup |
+| `/interface` | Posts an interface panel message with controls. | Easier member control access |
+| `/delete interface` | Removes the interface panel message. | Cleanup |
+| `/channel` | Creates a temporary voice channel (premium options may apply). | Manual room creation |
+| `/lock` | Locks your room from open joins. | Private room |
+| `/unlock` | Reopens the room for joining. | Public room |
+| `/hide` | Hides the room from standard visibility. | Staff/private session |
+| `/reveal` | Reveals a hidden room again. | Return to normal visibility |
+| `/rename <name>` | Renames your current temporary room. | Custom room naming |
+| `/limit <number>` | Sets max users for your room. | Party size control |
+| `/bitrate <kbps>` | Adjusts room audio quality settings. | Quality tuning |
+| `/video_quality <hd/sd>` | Sets room video quality mode. | Video performance |
+| `/permit <user>` | Allows a specific user into restricted rooms. | Private access control |
+| `/reject <user>` | Removes user and blocks immediate rejoin. | Moderation |
+| `/claim` | Claims ownership when original owner leaves. | Ownership recovery |
+| `/transfer <user>` | Transfers room ownership to another member. | Hand-off |
+| `/trust <user>` | Grants room-management trust to a user. | Shared control |
+| `/untrust <user>` | Removes trusted status. | Access cleanup |
+| `/block <user>` | Blocks user from joining room. | Moderation |
+| `/unblock <user>` | Removes block. | Access restore |
+| `/premium` | Shows premium status/details. | Premium check |
+| `/panel` | Opens premium voice control panel. | Premium controls |
+| `/dashboard` | Shows premium settings/statistics view. | Admin review |
+| `/automation` | Configures auto-delete, roles, and idle options. | Automation setup |
+| `/voicestats` | Shows voice activity stats/leaderboards. | Engagement insight |
+| `/presets` | Saves or loads room presets. | Reusable setup |
+| `/stats` | Displays bot/server stats. | Quick health check |
+| `/ping` | Shows response latency. | Connectivity check |
+| `/help` | Opens help menu. | Command discovery |
+| `/support` | Returns support links. | Get help |
+| `/activity` | Starts a compatible voice activity. | Community sessions |
