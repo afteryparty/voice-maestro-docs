@@ -28,10 +28,12 @@ VoiceMaestro creates temporary voice channels on demand, then gives channel owne
 
 ## Real Project Links
 
-- Docs: <https://voicemaestro.xyz/>
-- Invite: <https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands>
-- Support: <https://discord.gg/BusuZp2G8w>
-- Website: <https://afterpartylabs.xyz>
+<div class="cta">
+  <a class="btn secondary" href="https://voicemaestro.xyz/" target="_blank" rel="noopener noreferrer">Docs</a>
+  <a class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite VoiceMaestro</a>
+  <a class="btn secondary" href="https://discord.gg/BusuZp2G8w" target="_blank" rel="noopener noreferrer">Support Server</a>
+  <a class="btn secondary" href="https://afterpartylabs.xyz" target="_blank" rel="noopener noreferrer">Afterparty Bot Labs</a>
+</div>
 
 ## Core Features
 
