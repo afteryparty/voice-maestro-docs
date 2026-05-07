@@ -30,6 +30,7 @@ VoiceMaestro creates temporary voice channels on demand, then gives channel owne
 
 <div class="cta">
   <a class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite VoiceMaestro</a>
+  <a class="btn secondary" href="{{ site.topgg_url }}" target="_blank" rel="noopener noreferrer">Vote on Top.gg</a>
   <a class="btn secondary" href="https://discord.gg/BusuZp2G8w" target="_blank" rel="noopener noreferrer">Support Server</a>
   <a class="btn secondary" href="https://afterpartylabs.xyz" target="_blank" rel="noopener noreferrer">Afterparty Bot Labs</a>
 </div>
