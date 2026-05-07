@@ -43,4 +43,4 @@ permalink: /troubleshooting/
 - actual result
 - screenshot of role order or channel permissions if relevant
 
-Support: <https://discord.gg/BusuZp2G8w>
+Support: [Support Server](https://discord.gg/BusuZp2G8w)

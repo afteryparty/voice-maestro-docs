@@ -29,4 +29,4 @@ Data is not sold. Limited processing may occur through required infrastructure p
 
 ### Contact
 
-Privacy questions: <https://discord.gg/BusuZp2G8w>
+Privacy questions: [Support Server](https://discord.gg/BusuZp2G8w)

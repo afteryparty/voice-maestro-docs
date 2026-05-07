@@ -25,4 +25,4 @@ Run a full check: room creation, rename, lock/unlock, transfer, and cleanup flow
 
 ### Where do we get support?
 
-Use the official support server: <https://discord.gg/BusuZp2G8w>
+Use the official [Support Server](https://discord.gg/BusuZp2G8w).

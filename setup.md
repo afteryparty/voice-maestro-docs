@@ -11,7 +11,7 @@ permalink: /setup/
 
 Use the official invite link:
 
-<https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands>
+[Invite VoiceMaestro](https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands)
 
 ### 2. Check Role Position
 

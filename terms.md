@@ -29,4 +29,4 @@ Service is provided as-is without guarantees of uninterrupted availability.
 
 ### Contact
 
-Terms questions: <https://discord.gg/BusuZp2G8w>
+Terms questions: [Support Server](https://discord.gg/BusuZp2G8w)
