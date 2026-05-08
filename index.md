@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: VoiceMaestro
 description: Dynamic join-to-create voice management with owner controls and premium upgrades.
@@ -26,7 +26,14 @@ VoiceMaestro creates temporary voice channels on demand, then gives channel owne
   </div>
 </div>
 
-## Real Project Links
+## Core Features
+
+- Join-to-create voice channel system
+- Owner controls: lock, hide, rename, limit, transfer, trust/block
+- Optional interface panel for easier self-service control
+- Premium automation and usage analytics features
+
+## Project Links
 
 <div class="cta">
   <a class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1165878496879452170&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite VoiceMaestro</a>
@@ -35,9 +42,8 @@ VoiceMaestro creates temporary voice channels on demand, then gives channel owne
   <a class="btn secondary" href="https://afterpartylabs.xyz" target="_blank" rel="noopener noreferrer">Afterparty Bot Labs</a>
 </div>
 
-## Core Features
+## Next Steps
 
-- Join-to-create voice channel system
-- Owner controls: lock, hide, rename, limit, transfer, trust/block
-- Optional interface panel for easier self-service control
-- Premium automation and usage analytics features
+- Complete [Setup]({{ '/setup/' | relative_url }}) and test one channel-creation flow.
+- Use [Commands]({{ '/commands/' | relative_url }}) to configure owner controls.
+- Keep [Troubleshooting]({{ '/troubleshooting/' | relative_url }}) open while validating permissions.
