@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Setup
 description: First-time setup guide for VoiceMaestro server owners.
@@ -15,7 +15,7 @@ Use the official invite link:
 
 ### 2. Check Role Position
 
-Open **Server Settings → Roles** and move the VoiceMaestro role high enough to manage temporary voice channels.
+Open **Server Settings -> Roles** and move the VoiceMaestro role high enough to manage temporary voice channels.
 
 ### 3. Create Join-to-Create
 
@@ -23,26 +23,36 @@ Run:
 
 - `/setup create`
 
-This creates the voice entry system where users join one channel and receive their own temporary room.
+This creates the voice entry system where users join one hub channel and receive their own temporary room.
 
-### 4. Optional: Create Interface Panel
+### 4. Optional: Create the Interface Message
 
 Run:
 
-- `/interface`
+- `/interface create`
 
-This posts a control panel message for easier room management.
+This posts an optional interface message for easier room management with buttons.
 
-### 5. Run a Live Test
+### 5. Configure Optional Greetings
+
+Run:
+
+- `/tempvc-random-greetings`
+
+Use this to enable or disable random owner greeting messages for new temporary channels.
+
+### 6. Run a Live Test
 
 1. Join the configured hub voice channel.
 2. Confirm a temporary room is created.
-3. Test `/lock`, `/rename`, and `/limit`.
-4. Confirm owner transfer works with `/transfer`.
+3. Confirm the joining member is moved into it.
+4. Test `/voice info`, `/voice password`, and `/voice reset`.
+5. Confirm cleanup works when the room becomes empty.
 
 ## Setup Checklist
 
-- Bot can view/manage relevant channels
+- Bot can view and manage relevant channels
 - Slash commands are visible
-- Join-to-create channel works
+- Join-to-create works correctly
 - Room owner controls function as expected
+- Optional interface message works if enabled

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Commands
 description: VoiceMaestro command reference.
@@ -7,37 +7,52 @@ permalink: /commands/
 
 ## Commands
 
+VoiceMaestro is **free-first**, so normal server functionality is not locked behind a premium tier.
+
+### Setup and Configuration
+
 | Command | Description | Typical Use |
 | --- | --- | --- |
 | `/setup create` | Creates the join-to-create voice hub system. | First-time server setup |
 | `/setup delete` | Removes the existing voice hub setup. | Reset or rebuild setup |
-| `/interface` | Posts an interface panel message with controls. | Easier member control access |
-| `/delete interface` | Removes the interface panel message. | Cleanup |
-| `/channel` | Creates a temporary voice channel (premium options may apply). | Manual room creation |
-| `/lock` | Locks your room from open joins. | Private room |
-| `/unlock` | Reopens the room for joining. | Public room |
-| `/hide` | Hides the room from standard visibility. | Staff/private session |
-| `/reveal` | Reveals a hidden room again. | Return to normal visibility |
-| `/rename <name>` | Renames your current temporary room. | Custom room naming |
-| `/limit <number>` | Sets max users for your room. | Party size control |
-| `/bitrate <kbps>` | Adjusts room audio quality settings. | Quality tuning |
-| `/video_quality <hd/sd>` | Sets room video quality mode. | Video performance |
-| `/permit <user>` | Allows a specific user into restricted rooms. | Private access control |
-| `/reject <user>` | Removes user and blocks immediate rejoin. | Moderation |
-| `/claim` | Claims ownership when original owner leaves. | Ownership recovery |
-| `/transfer <user>` | Transfers room ownership to another member. | Hand-off |
-| `/trust <user>` | Grants room-management trust to a user. | Shared control |
-| `/untrust <user>` | Removes trusted status. | Access cleanup |
-| `/block <user>` | Blocks user from joining room. | Moderation |
-| `/unblock <user>` | Removes block. | Access restore |
-| `/premium` | Shows premium status/details. | Premium check |
-| `/panel` | Opens premium voice control panel. | Premium controls |
-| `/dashboard` | Shows premium settings/statistics view. | Admin review |
-| `/automation` | Configures auto-delete, roles, and idle options. | Automation setup |
-| `/voicestats` | Shows voice activity stats/leaderboards. | Engagement insight |
+| `/interface create` | Posts the optional interface message for quick room controls. | Easier member control access |
+| `/interface delete` | Removes the interface message. | Cleanup |
+| `/tempvc-random-greetings` | Enables or disables random owner greetings for new temp VCs. | Greeting preference |
+
+### Voice and Owner Controls
+
+| Command | Description | Typical Use |
+| --- | --- | --- |
+| `/channel` | Creates a temporary voice channel manually. | Manual room creation |
+| `/bitrate` | Adjusts room audio quality settings. | Quality tuning |
+| `/move` | Moves a selected member to your voice channel. | Owner moderation |
+| `/release` | Moves members out of a waiting room flow. | Queue handling |
+| `/activity` | Starts a compatible Discord activity. | Community sessions |
+| `/voice info` | Shows information about your current temporary voice channel. | Room details |
+| `/voice password` | Sets, updates, or removes a room password. | Private access |
+| `/voice reset` | Resets your temporary voice channel to default settings. | Cleanup |
+| `/find` | Finds a user's current voice channel. | Voice lookup |
+| `/video quality` | Sets room video quality mode. | Video performance |
+| `/age restrict` | Toggles age restriction for the current room. | Room safety |
+
+### Automation and Room Management
+
+| Command | Description | Typical Use |
+| --- | --- | --- |
+| `/automation` | Configures auto-delete, auto-role, and idle options. | Automation setup |
+| `/permissions` | Applies or manages room permission templates. | Access setup |
 | `/presets` | Saves or loads room presets. | Reusable setup |
-| `/stats` | Displays bot/server stats. | Quick health check |
+| `/mode` | Applies a saved room mode or preset. | Fast room setup |
+| `/leaderboard` | Shows voice activity stats and leaderboards. | Engagement insight |
+
+### Info and Support
+
+| Command | Description | Typical Use |
+| --- | --- | --- |
+| `/help` | Opens the help menu. | Command discovery |
+| `/about` | Shows project and bot information. | Bot overview |
+| `/support` | Returns support links and project resources. | Get help |
+| `/premium` | Explains VoiceMaestro+ as an optional supporter membership. | Supporter info |
 | `/ping` | Shows response latency. | Connectivity check |
-| `/help` | Opens help menu. | Command discovery |
-| `/support` | Returns support links. | Get help |
-| `/activity` | Starts a compatible voice activity. | Community sessions |
+| `/status` | Displays bot status and statistics. | Runtime check |
+| `/faq` | Opens common questions and answers. | Self-help |

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Troubleshooting
 description: Common VoiceMaestro issues and fixes.
@@ -10,30 +10,36 @@ permalink: /troubleshooting/
 ### Join-to-create does not create rooms
 
 - Confirm `/setup create` was run successfully.
-- Check bot has **Manage Channels** in the server and target category.
+- Check the bot has **Manage Channels**, **Move Members**, and **Connect** where needed.
 - Verify the hub voice channel still exists and is configured.
 
-### Members cannot use owner controls
+### Members are not moved into their new room
 
-- Confirm the user is current room owner (or trusted if using trust features).
+- Confirm the bot has **Move Members** permission.
+- Check for channel overrides that block the move.
+- Re-test after confirming the hub and category are still valid.
+
+### Owner controls are not working
+
+- Confirm the user is the current room owner.
 - Check bot permissions and role placement.
-- Re-test with `/claim` if original owner left.
+- Re-test with a freshly created room to rule out old permission overrides.
 
 ### Interface buttons are not responding
 
 - Confirm the interface message still exists.
-- Recreate interface with `/delete interface` then `/interface`.
+- Recreate it with `/interface delete` and `/interface create`.
 - Check the channel still allows bot messages and interactions.
 
-### Room visibility/access commands fail
+### Room visibility or access commands fail
 
-- Check category-level overrides that may block hide/reveal or lock/unlock behavior.
-- Confirm the bot can edit permissions in that channel/category.
+- Check category-level overrides that may block permission edits.
+- Confirm the bot can edit permissions in that channel and category.
 
-### Premium features are missing
+### VoiceMaestro+ looks confusing
 
-- Verify premium status with `/premium`.
-- Confirm server/account scope for premium features.
+- `/premium` only explains the optional supporter membership.
+- VoiceMaestro+ does not unlock normal bot features.
 
 ## What to send support
 
